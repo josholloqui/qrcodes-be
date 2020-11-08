@@ -51,11 +51,15 @@ qrCodes
     }
   })
   .delete('/:id', async (req, res, next) => {
-    const deleteQrCode = await QrCode.destroy({
-      where: {
-        id: req.params.id
-      }
-    });
-    res.status(202).json(deleteQrCode)
+    try {
+      const deleteQrCode = await QrCode.destroy({
+        where: {
+          id: req.params.id
+        }
+      });
+      res.status(202).json(deleteQrCode);
+    } catch (e) {
+      next(e);
+    }
   })
 

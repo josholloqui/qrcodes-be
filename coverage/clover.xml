@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1604875293031" clover="3.2.0">
-  <project timestamp="1604875293032" name="All files">
-    <metrics statements="48" coveredstatements="44" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10" elements="58" coveredelements="54" complexity="0" loc="48" ncloc="48" packages="3" files="4" classes="4"/>
+<coverage generated="1604875462178" clover="3.2.0">
+  <project timestamp="1604875462179" name="All files">
+    <metrics statements="50" coveredstatements="45" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10" elements="60" coveredelements="55" complexity="0" loc="50" ncloc="50" packages="3" files="4" classes="4"/>
     <package name="src">
       <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.ts" path="/Users/josholloqui/solo-projects/qrcodes-be/src/app.ts">
@@ -26,9 +26,9 @@
       </file>
     </package>
     <package name="src.controller">
-      <metrics statements="27" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
+      <metrics statements="29" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
       <file name="qrcodes.ts" path="/Users/josholloqui/solo-projects/qrcodes-be/src/controller/qrcodes.ts">
-        <metrics statements="27" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
+        <metrics statements="29" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
@@ -55,7 +55,9 @@
         <line num="50" count="0" type="stmt"/>
         <line num="53" count="1" type="stmt"/>
         <line num="54" count="1" type="stmt"/>
-        <line num="59" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.models">
