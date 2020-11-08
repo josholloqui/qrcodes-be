@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1604715133537" clover="3.2.0">
-  <project timestamp="1604715133537" name="All files">
-    <metrics statements="34" coveredstatements="32" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="38" coveredelements="36" complexity="0" loc="34" ncloc="34" packages="3" files="4" classes="4"/>
+<coverage generated="1604875293031" clover="3.2.0">
+  <project timestamp="1604875293032" name="All files">
+    <metrics statements="48" coveredstatements="44" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10" elements="58" coveredelements="54" complexity="0" loc="48" ncloc="48" packages="3" files="4" classes="4"/>
     <package name="src">
       <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.ts" path="/Users/josholloqui/solo-projects/qrcodes-be/src/app.ts">
@@ -26,22 +26,36 @@
       </file>
     </package>
     <package name="src.controller">
-      <metrics statements="13" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <metrics statements="27" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
       <file name="qrcodes.ts" path="/Users/josholloqui/solo-projects/qrcodes-be/src/controller/qrcodes.ts">
-        <metrics statements="13" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <metrics statements="27" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.models">
